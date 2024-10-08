@@ -26,9 +26,8 @@ pip install -r requirements.txt
 ```
 
 - 將需要的檔案放在根目錄中
-
-- `question-words.txt`
-- `wiki_texts_part_*.txt` : * = 0-10
+    - `question-words.txt`
+    - `wiki_texts_part_*.txt` : * = 0-10
 
 - 需要依據註解修改成 pwsh 命令並執行 :
 
