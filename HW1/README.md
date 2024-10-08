@@ -38,13 +38,13 @@ pip install -r requirements.txt
 Invoke-WebRequest -Uri "http://download.tensorflow.org/data/questions-words.txt" -OutFile "question-words.txt"
 ```
 
-- 取代 `cat wiki_texts_part_*.txt > wiki_texts_combined.txt`
+取代 `cat wiki_texts_part_*.txt > wiki_texts_combined.txt`
 
 ```pwsh
 0..10 | ForEach-Object { Get-Content "wiki_texts_part_$_.txt" } | Set-Content "wiki_texts_combined.txt"
 ```
 
-- 取代 `head -n 10 wiki_texts_combined.txt`
+取代 `head -n 10 wiki_texts_combined.txt`
 
 ```pwsh
 Get-Content "wiki_texts_combined.txt" | Select-Object -First 10 
