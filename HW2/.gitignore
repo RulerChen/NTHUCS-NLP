@@ -1,3 +1,7 @@
 *.py
 *.zip
 *.docx
+.python-version
+
+venv/
+data/
