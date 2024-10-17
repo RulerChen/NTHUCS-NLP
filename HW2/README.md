@@ -11,13 +11,13 @@
 - 開啟虛擬環境
 
 ```bash
-python -m venv myenv
+python -m venv venv
 ```
 
 - 在 windows powershell 中進入虛擬環境
 
 ```bash
-./myenv/Scripts/activate.ps1
+venv/Scripts/activate.ps1
 ```
 
 - 安裝套件
