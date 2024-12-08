@@ -1,0 +1,5 @@
+*.py
+*.zip
+*.docx
+
+venv/
