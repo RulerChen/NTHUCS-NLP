@@ -9,3 +9,6 @@
 ### [cosine similarity - bge](https://www.kaggle.com/code/jaytonde/cosine-similarity-bge/notebook)
 
 ## Our Solution
+
+Public score: 0.48718
+Private score: 0.44502
